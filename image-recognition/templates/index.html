@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero py-5">
+  <div class="container py-4 text-center">
+    <span class="eyebrow">LOCAL AI IMAGE RECOGNITION</span>
+    <h1 class="display-5 fw-bold mt-3">Image Recognition</h1>
+    <p class="lead text-secondary mx-auto hero-copy">
+      Detect supported objects in images using Python and a pretrained MobileNet-SSD model.
+    </p>
+    <a class="btn btn-primary btn-lg mt-3" href="/detection">Start Recognition →</a>
+  </div>
+</section>
+<section class="container py-5">
+  <div class="row g-4">
+    <div class="col-md-8 mx-auto">
+      <article class="tool-card h-100 text-center">
+        <div class="tool-icon">◎</div>
+        <h2>Object Detection</h2>
+        <p>Upload an image to detect supported objects and view confidence scores and bounding boxes.</p>
+        <a class="btn btn-outline-primary" href="/detection">Open Image Recognition</a>
+      </article>
+    </div>
+  </div>
+  <div class="info-strip mt-4">
+    <strong>Supported formats:</strong> PNG, JPG, JPEG, BMP, WEBP ·
+    <strong>Maximum size:</strong> 10 MB<br>
+    <small>Object detection requires compatible MobileNet-SSD model files.</small>
+  </div>
+</section>
+{% endblock %}

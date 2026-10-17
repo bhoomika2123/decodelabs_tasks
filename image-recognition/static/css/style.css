@@ -1,0 +1,12 @@
+:root{--ink:#15233b;--blue:#245eea;--muted:#65728a;--pale:#f4f7ff}
+body{color:var(--ink);background:#fbfcff;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.navbar-brand{letter-spacing:-.03em;color:var(--ink)!important}.nav-link{font-weight:500;color:#526078}
+.hero{background:radial-gradient(circle at 50% 0%,#e4edff 0,#f7f9ff 52%,#fbfcff 100%)}
+.eyebrow{font-size:.78rem;letter-spacing:.16em;font-weight:800;color:var(--blue)}
+.hero-copy{max-width:650px}.tool-card{background:white;border:1px solid #e5eaf4;border-radius:20px;padding:clamp(20px,4vw,34px);box-shadow:0 12px 35px rgba(31,55,100,.06)}
+.tool-card h2{font-size:1.35rem;font-weight:750}.tool-card p{color:var(--muted)}
+.tool-icon{display:grid;place-items:center;width:52px;height:52px;border-radius:15px;background:#edf2ff;color:var(--blue);font-size:2rem;margin-bottom:20px}
+.btn-primary{background:var(--blue);border-color:var(--blue)}.btn-primary:hover{background:#1749c6;border-color:#1749c6}
+.info-strip{padding:18px 22px;border-radius:14px;background:var(--pale);line-height:1.8;color:#53617a}
+.preview{max-width:100%;max-height:430px;object-fit:contain;border:1px solid #e5eaf4;border-radius:12px;background:#f8faff;padding:6px}
+.result-text{min-height:220px;margin-top:12px}.status-error{color:#b42318}.status-success{color:#18794e}

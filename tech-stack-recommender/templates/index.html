@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Tech Stack Recommender</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+<body>
+    <nav class="nav"><a class="brand" href="/">✦ Tech Stack Recommender</a>
+        <span>Discover your best-fit technology career</span>
+    </nav>
+    <main>
+        <section class="hero">
+            <p class="eyebrow">CAREER MATCHING · CONTENT-BASED AI</p>
+            <h1>Your skills can take you<br><span>somewhere brilliant.</span></h1>
+            <p>Choose the technologies you know and explore career paths that align with your current skills.</p>
+        </section>
+        <section class="panel">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">STEP 01</p>
+                    <h2>Build your skill profile</h2>
+                </div>
+                <span class="counter" id="skill-count">0 selected</span>
+            </div>
+            <label for="skill-input">Add a skill</label>
+            <div class="add-row">
+                <input id="skill-input" list="skill-options" placeholder="e.g. Python, SQL, Docker">
+                <datalist id="skill-options"></datalist>
+                <button id="add-skill" class="secondary">+ Add skill</button>
+            </div>
+            <p class="hint">Select suggested skills or type your own. Add at least three supported skills.</p>
+            <div id="suggestions" class="chips"></div>
+            <h3>Your selected skills</h3>
+            <div id="selected-skills" class="chips selected">
+                <span class="empty">No skills selected yet.</span>
+            </div>
+            <div class="actions">
+                <button id="recommend" class="primary">Generate recommendations <span>→</span></button>
+                <button id="reset" class="reset">Reset</button>
+            </div>
+            <p id="status" role="status" class="status"></p>
+        </section>
+        <section id="results-section" class="results-section" hidden>
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">STEP 02</p>
+                    <h2>Your career matches</h2>
+                </div>
+                <span class="counter">TOP MATCHES</span>
+            </div><p id="result-note" class="hint"></p>
+            <div id="results" class="results"></div>
+            <p class="disclaimer">Similarity indicates textual alignment between your skills and the dataset. It is not a probability of getting a job or a guarantee of career success.</p>
+        </section>
+    </main>
+    <footer>Tech Stack Recommender <span>Built with Python · Flask · Pandas · Scikit-learn</span>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+job_role,required_skills,description,category
+Data Scientist,"Python, SQL, Machine Learning, Data Analysis, Pandas, NumPy, Statistics, Data Visualization",Analyze data and build statistical models to support decisions.,Data Science
+Machine Learning Engineer,"Python, Machine Learning, NumPy, Pandas, Scikit-learn, Deep Learning, APIs, Docker",Develop and deploy machine learning systems and model-serving workflows.,Artificial Intelligence
+Python Developer,"Python, Flask, Django, REST APIs, SQL, Git, Testing, PostgreSQL",Build maintainable Python applications and backend services.,Software Development
+Backend Developer,"Python, Java, Flask, Django, REST APIs, SQL, PostgreSQL, Docker, Git",Build server-side applications; APIs; and database integrations.,Software Development
+Frontend Developer,"HTML, CSS, JavaScript, React, Responsive Design, Git, UI Design",Build accessible and responsive user interfaces for web applications.,Web Development
+Full Stack Developer,"HTML, CSS, JavaScript, React, Python, Flask, REST APIs, SQL, Git",Develop both frontend interfaces and backend application features.,Web Development
+Data Analyst,"SQL, Python, Data Analysis, Pandas, Excel, Statistics, Data Visualization, Power BI",Prepare; analyze; and communicate insights from structured datasets.,Data Analytics
+DevOps Engineer,"Linux, Docker, Kubernetes, AWS, Cloud Computing, Git, CI/CD, Automation, Monitoring",Automate software delivery and maintain reliable deployment pipelines.,Cloud and Operations
+Cloud Engineer,"AWS, Cloud Computing, Linux, Docker, Kubernetes, Networking, Security, Automation",Design; deploy; and maintain cloud infrastructure and services.,Cloud and Operations
+Database Administrator,"SQL, PostgreSQL, Database Design, Backup, Performance Tuning, Linux, Security",Maintain databases; protect data; and improve database reliability and performance.,Data Management
+Java Developer,"Java, Spring Boot, REST APIs, SQL, Git, Testing, Object-Oriented Programming",Build Java-based applications and enterprise backend services.,Software Development
+AI Engineer,"Python, Machine Learning, Deep Learning, NLP, NumPy, APIs, Docker, Scikit-learn",Integrate AI techniques into practical software products and services.,Artificial Intelligence
+Cybersecurity Analyst,"Networking, Linux, Security, Python, SIEM, Risk Assessment, Incident Response",Monitor systems; investigate security events; and reduce cyber risks.,Cybersecurity
+Automation Engineer,"Python, Automation, Testing, Selenium, APIs, Git, Linux, CI/CD",Create automated workflows and tests that reduce repetitive manual work.,Automation
+System Administrator,"Linux, Networking, Security, Bash, Monitoring, Backup, Cloud Computing",Operate and troubleshoot computer systems; users; networks; and services.,IT Operations
+Mobile App Developer,"Java, Kotlin, Android, APIs, SQL, Git, Testing",Build and maintain mobile applications and integrate backend services.,Mobile Development
+UI UX Designer,"UI Design, UX Research, Wireframing, Prototyping, Responsive Design, HTML, CSS",Research user needs and design clear; usable digital experiences.,Design
+QA Engineer,"Testing, Automation, Selenium, Python, Git, CI/CD, Bug Tracking",Plan and execute software tests to improve product quality.,Quality Assurance
